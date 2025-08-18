@@ -6,5 +6,7 @@ services:
     volumes:
       - ./01-intro:/app/01-intro
       - ./02-regression:/app/02-regression
+      - ./03-classification:/app/03-classification
     ports:
       - "8000:8000"
+      
