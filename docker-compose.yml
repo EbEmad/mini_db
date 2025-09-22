@@ -9,6 +9,8 @@ services:
       - ./03-classification:/app/03-classification
       - ./04-evaluation:/app/04-evaluation
       - ./05-deployment:/app/05-deployment
+      - ./06-trees:/app/trees
+      
     ports:
       - "8000:8000"
       - "9696:9696"
