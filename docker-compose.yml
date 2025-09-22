@@ -11,4 +11,5 @@ services:
       - ./05-deployment:/app/05-deployment
     ports:
       - "8000:8000"
+      - "9696:9696"
       
