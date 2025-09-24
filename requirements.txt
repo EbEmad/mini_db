@@ -4,3 +4,8 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+fastapi
+uvicorn
+requests
+tensorflow
+torch
