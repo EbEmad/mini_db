@@ -1,0 +1,3 @@
+### MiniDB is a lightweight educational database engine built from scratch in Python to demonstrate the core internals of modern database systems. The project implements a columnar storage engine, write-ahead logging (WAL) for durability, a buffer pool manager for caching disk pages, and a B+ Tree index for efficient data retrieval.
+
+### The system allows users to store, query, and manage structured data while simulating how real database engines handle storage, indexing, caching, and crash recovery.
