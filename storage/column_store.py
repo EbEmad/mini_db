@@ -27,10 +27,6 @@ class ColumnStore:
                 f.write(json.dumps(col_data)+ "\n")
             
         self.memtable={"id":[],"name":[],"age":[],"salary":[]}
-        
-
-
-
 
         
     def _recover_from_wal(self):
@@ -58,3 +54,15 @@ class ColumnStore:
 
         
         
+if __name__ == "__main__":
+    db = ColumnStore()
+    print("Inserting data...")
+    
+    db.insert({"id": 1, "name": "Alice", "age": 30})
+    db.insert({"id": 2, "name": "Bob", "age": 25})
+    db.insert({"id": 3, "name": "Charlie", "age": 35})
+    
+    db.insert({"id": 4, "name": "Diana", "age": 28})
+    db.insert({"id": 5, "name": "Eve", "age": 40})
+    
+    db.insert({"id": 6, "name": "Frank", "age": 22}) 
